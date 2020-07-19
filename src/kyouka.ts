@@ -15,7 +15,7 @@ import sum from './sum';
 import formatDuration from './formatDuration';
 import getTimeDeltaAsSeconds from './getTimeDeltaAsSeconds';
 
-export {
+const kyoka = {
     calcDistance,
     disablePullDown,
     getCenterPointPos,
@@ -33,3 +33,4 @@ export {
     formatDuration,
     getTimeDeltaAsSeconds
 };
+export default kyoka;
