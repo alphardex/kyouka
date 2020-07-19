@@ -1,9 +1,9 @@
 {
   "name": "kyouka",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "./dist/kyouka.js",
-  "types": "./types/types.d.ts",
+  "types": "./dist/kyouka.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
