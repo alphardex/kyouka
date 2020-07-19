@@ -1,0 +1,14 @@
+{
+  "name": "kyouka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/kyouka.js",
+  "types": "./types/types.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
