@@ -1,6 +1,6 @@
 {
   "name": "kyouka",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/kyouka.js",
   "types": "./types/types.d.ts",
