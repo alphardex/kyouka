@@ -9,6 +9,7 @@ import getTimeFromDate from "./getTimeFromDate";
 import getURLParameters from './getURLParameters';
 import isBottomVisible from './isBottomVisible';
 import isPhoneNumber from './isPhoneNumber';
+import previewImage from './previewImage';
 import randomIntArrayInRange from "./randomIntArrayInRange";
 import randomIntegerInRange from "./randomIntegerInRange";
 import randomNumberInRange from "./randomNumberInRange";
@@ -39,6 +40,7 @@ const kyoka = {
     isPhoneNumber,
     isBottomVisible,
     getURLParameters,
-    average
+    average,
+    previewImage
 };
 export default kyoka;
