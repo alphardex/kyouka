@@ -1,8 +1,14 @@
+import average from './average';
 import calcDistance from "./calcDistance";
 import disablePullDown from "./disablePullDown";
+import formatDuration from './formatDuration';
 import getCenterPointPos from "./getCenterPointPos";
 import getMousePos from "./getMousePos";
+import getTimeDeltaAsSeconds from './getTimeDeltaAsSeconds';
 import getTimeFromDate from "./getTimeFromDate";
+import getURLParameters from './getURLParameters';
+import isBottomVisible from './isBottomVisible';
+import isPhoneNumber from './isPhoneNumber';
 import randomIntArrayInRange from "./randomIntArrayInRange";
 import randomIntegerInRange from "./randomIntegerInRange";
 import randomNumberInRange from "./randomNumberInRange";
@@ -10,10 +16,8 @@ import requestInterval from "./requestInterval";
 import sample from "./sample";
 import shuffle from "./shuffle";
 import sleep from "./sleep";
-import vw2px from "./vw2px";
 import sum from './sum';
-import formatDuration from './formatDuration';
-import getTimeDeltaAsSeconds from './getTimeDeltaAsSeconds';
+import vw2px from "./vw2px";
 
 const kyoka = {
     calcDistance,
@@ -31,6 +35,10 @@ const kyoka = {
     vw2px,
     sum,
     formatDuration,
-    getTimeDeltaAsSeconds
+    getTimeDeltaAsSeconds,
+    isPhoneNumber,
+    isBottomVisible,
+    getURLParameters,
+    average
 };
 export default kyoka;
