@@ -1,14 +1,20 @@
 import average from './average';
 import calcDistance from "./calcDistance";
-import disablePullDown from "./disablePullDown";
+import CSVToArray from './CSVToArray';
+import deepClone from './deepClone';
+import disableTouchMove from "./disableTouchMove";
 import formatDuration from './formatDuration';
 import getCenterPointPos from "./getCenterPointPos";
 import getMousePos from "./getMousePos";
+import { getScrollPosition, getScrollPositionAsVw } from './getScrollPosition';
 import getTimeDeltaAsSeconds from './getTimeDeltaAsSeconds';
 import getTimeFromDate from "./getTimeFromDate";
 import getURLParameters from './getURLParameters';
+import initialize2DArray from './initialize2DArray';
+import initializeArrayWithValues from './initializeArrayWithValues';
 import isBottomVisible from './isBottomVisible';
 import isPhoneNumber from './isPhoneNumber';
+import px2vw from './px2vw';
 import previewImage from './previewImage';
 import randomIntArrayInRange from "./randomIntArrayInRange";
 import randomIntegerInRange from "./randomIntegerInRange";
@@ -22,7 +28,7 @@ import vw2px from "./vw2px";
 
 const kyoka = {
     calcDistance,
-    disablePullDown,
+    disableTouchMove,
     getCenterPointPos,
     getMousePos,
     getTimeFromDate,
@@ -41,6 +47,13 @@ const kyoka = {
     isBottomVisible,
     getURLParameters,
     average,
-    previewImage
+    previewImage,
+    getScrollPosition,
+    getScrollPositionAsVw,
+    px2vw,
+    initialize2DArray,
+    deepClone,
+    initializeArrayWithValues,
+    CSVToArray,
 };
 export default kyoka;
