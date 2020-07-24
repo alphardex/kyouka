@@ -1,6 +1,8 @@
+import arrayToCSV from './arrayToCSV';
 import average from './average';
 import calcDistance from "./calcDistance";
 import CSVToArray from './CSVToArray';
+import CSVToJSON from './CSVToJSON';
 import deepClone from './deepClone';
 import disableTouchMove from "./disableTouchMove";
 import formatDuration from './formatDuration';
@@ -14,6 +16,7 @@ import initialize2DArray from './initialize2DArray';
 import initializeArrayWithValues from './initializeArrayWithValues';
 import isBottomVisible from './isBottomVisible';
 import isPhoneNumber from './isPhoneNumber';
+import JSONToCSV from './JSONToCSV';
 import px2vw from './px2vw';
 import previewImage from './previewImage';
 import randomIntArrayInRange from "./randomIntArrayInRange";
@@ -55,5 +58,8 @@ const kyoka = {
     deepClone,
     initializeArrayWithValues,
     CSVToArray,
+    arrayToCSV,
+    JSONToCSV,
+    CSVToJSON
 };
 export default kyoka;
