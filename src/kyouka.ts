@@ -27,6 +27,7 @@ import sample from "./sample";
 import shuffle from "./shuffle";
 import sleep from "./sleep";
 import sum from './sum';
+import uniq from './uniq';
 import vw2px from "./vw2px";
 
 const kyoka = {
@@ -60,6 +61,7 @@ const kyoka = {
     CSVToArray,
     arrayToCSV,
     JSONToCSV,
-    CSVToJSON
+    CSVToJSON,
+    uniq
 };
 export default kyoka;
