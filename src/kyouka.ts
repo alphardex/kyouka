@@ -17,6 +17,8 @@ import initializeArrayWithValues from './initializeArrayWithValues';
 import isBottomVisible from './isBottomVisible';
 import isPhoneNumber from './isPhoneNumber';
 import JSONToCSV from './JSONToCSV';
+import omit from './omit';
+import pick from './pick';
 import px2vw from './px2vw';
 import previewImage from './previewImage';
 import randomIntArrayInRange from "./randomIntArrayInRange";
@@ -62,6 +64,8 @@ const kyoka = {
     arrayToCSV,
     JSONToCSV,
     CSVToJSON,
-    uniq
+    uniq,
+    omit,
+    pick
 };
 export default kyoka;
