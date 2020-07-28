@@ -14,6 +14,7 @@ import getTimeFromDate from "./getTimeFromDate";
 import getURLParameters from './getURLParameters';
 import initialize2DArray from './initialize2DArray';
 import initializeArrayWithValues from './initializeArrayWithValues';
+import iosInputScrollFix from './iosInputScrollFix';
 import isBottomVisible from './isBottomVisible';
 import isPhoneNumber from './isPhoneNumber';
 import JSONToCSV from './JSONToCSV';
@@ -66,6 +67,7 @@ const kyoka = {
     CSVToJSON,
     uniq,
     omit,
-    pick
+    pick,
+    iosInputScrollFix
 };
 export default kyoka;
