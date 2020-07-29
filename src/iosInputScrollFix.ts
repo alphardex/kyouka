@@ -3,7 +3,7 @@
  *
  */
 const iosInputScrollFix = () => {
-    document.querySelectorAll('input').forEach(input => {
+    document.querySelectorAll('input, select, textarea').forEach(input => {
         input.addEventListener('blur', () => {
             window.scrollBy(0, -1)
         })
