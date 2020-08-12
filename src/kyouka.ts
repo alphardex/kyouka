@@ -18,6 +18,9 @@ import iosInputScrollFix from './iosInputScrollFix';
 import isBottomVisible from './isBottomVisible';
 import isPhoneNumber from './isPhoneNumber';
 import JSONToCSV from './JSONToCSV';
+import mapKeys from './mapKeys';
+import mapObject from './mapObject';
+import mapValues from './mapValues';
 import omit from './omit';
 import pick from './pick';
 import px2vw from './px2vw';
@@ -68,6 +71,9 @@ const kyoka = {
     uniq,
     omit,
     pick,
-    iosInputScrollFix
+    iosInputScrollFix,
+    mapObject,
+    mapKeys,
+    mapValues
 };
 export default kyoka;
