@@ -3,6 +3,7 @@ import average from './average';
 import calcDistance from "./calcDistance";
 import CSVToArray from './CSVToArray';
 import CSVToJSON from './CSVToJSON';
+import debounce from './debounce';
 import deepClone from './deepClone';
 import disableTouchMove from "./disableTouchMove";
 import formatDuration from './formatDuration';
@@ -16,6 +17,7 @@ import initialize2DArray from './initialize2DArray';
 import initializeArrayWithValues from './initializeArrayWithValues';
 import iosInputScrollFix from './iosInputScrollFix';
 import isBottomVisible from './isBottomVisible';
+import isEmpty from './isEmpty';
 import isPhoneNumber from './isPhoneNumber';
 import JSONToCSV from './JSONToCSV';
 import mapKeys from './mapKeys';
@@ -33,6 +35,7 @@ import sample from "./sample";
 import shuffle from "./shuffle";
 import sleep from "./sleep";
 import sum from './sum';
+import throttle from './throttle';
 import uniq from './uniq';
 import vw2px from "./vw2px";
 
@@ -74,6 +77,9 @@ const kyoka = {
     iosInputScrollFix,
     mapObject,
     mapKeys,
-    mapValues
+    mapValues,
+    isEmpty,
+    debounce,
+    throttle
 };
 export default kyoka;
