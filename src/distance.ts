@@ -7,7 +7,5 @@ import { Point } from "../types/types";
  * @param {Point} p2
  * @returns {number}
  */
-const calcDistance = (p1: Point, p2: Point): number => {
-    return Math.sqrt((p2.x - p1.x) ** 2 + (p2.y - p1.y) ** 2);
-};
-export default calcDistance;
+const distance = (p1: Point, p2: Point): number => Math.hypot(p2.x - p1.x, p2.y - p1.y);
+export default distance;
