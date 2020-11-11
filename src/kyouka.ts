@@ -1,3 +1,4 @@
+import animateNumber from "./animateNumber";
 import arrayToCSV from "./arrayToCSV";
 import attempt from "./attempt";
 import average from "./average";
@@ -8,8 +9,12 @@ import CSVToJSON from "./CSVToJSON";
 import curry from "./curry";
 import debounce from "./debounce";
 import deepClone from "./deepClone";
+import deg2rad from "./deg2rad";
+import detectDeviceType from "./detectDeviceType";
 import disableTouchMove from "./disableTouchMove";
 import distance from "./distance";
+import equals from "./equals";
+import factorial from "./factorial";
 import formatDuration from "./formatDuration";
 import getCenterPointPos from "./getCenterPointPos";
 import getMousePos from "./getMousePos";
@@ -17,6 +22,8 @@ import { getScrollPosition, getScrollPositionAsVw } from "./getScrollPosition";
 import getTimeDeltaAsSeconds from "./getTimeDeltaAsSeconds";
 import getTimeFromDate from "./getTimeFromDate";
 import getURLParameters from "./getURLParameters";
+import includesAll from "./includesAll";
+import includesAny from "./includesAny";
 import initialize2DArray from "./initialize2DArray";
 import initializeArrayWithValues from "./initializeArrayWithValues";
 import intersection from "./intersection";
@@ -37,16 +44,21 @@ import pluck from "./pluck";
 import previewImage from "./previewImage";
 import promisify from "./promisify";
 import px2vw from "./px2vw";
+import rad2deg from "./rad2deg";
+import randomHexColorCode from "./randomHexColorCode";
 import randomIntArrayInRange from "./randomIntArrayInRange";
 import randomIntegerInRange from "./randomIntegerInRange";
 import randomNumberInRange from "./randomNumberInRange";
 import range from "./range";
 import requestInterval from "./requestInterval";
+import reverseString from "./reverseString";
 import sample from "./sample";
 import shuffle from "./shuffle";
 import sleep from "./sleep";
 import sum from "./sum";
+import sumPower from "./sumPower";
 import throttle from "./throttle";
+import timeTaken from "./timeTaken";
 import union from "./union";
 import uniq from "./uniq";
 import unzip from "./unzip";
@@ -109,5 +121,17 @@ const kyoka = {
   pluck,
   mask,
   intersection,
+  animateNumber,
+  detectDeviceType,
+  deg2rad,
+  factorial,
+  equals,
+  includesAll,
+  includesAny,
+  rad2deg,
+  randomHexColorCode,
+  timeTaken,
+  sumPower,
+  reverseString,
 };
 export default kyoka;
