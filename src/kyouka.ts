@@ -43,6 +43,7 @@ import pick from "./pick";
 import pluck from "./pluck";
 import previewImage from "./previewImage";
 import promisify from "./promisify";
+import px2vh from "./px2vh";
 import px2vw from "./px2vw";
 import rad2deg from "./rad2deg";
 import randomHexColorCode from "./randomHexColorCode";
@@ -62,6 +63,7 @@ import timeTaken from "./timeTaken";
 import union from "./union";
 import uniq from "./uniq";
 import unzip from "./unzip";
+import vh2px from "./vh2px";
 import vw2px from "./vw2px";
 import zip from "./zip";
 
@@ -133,5 +135,7 @@ const kyoka = {
   timeTaken,
   sumPower,
   reverseString,
+  vh2px,
+  px2vh,
 };
 export default kyoka;
