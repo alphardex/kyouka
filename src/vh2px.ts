@@ -5,6 +5,7 @@
  * @returns {number}
  */
 const vh2px = (vh: number): number => {
-  return (vh * window.innerHeight) / 100;
+  const h = Math.min(window.innerHeight, document.documentElement.clientHeight);
+  return (vh * h) / 100;
 };
 export default vh2px;
