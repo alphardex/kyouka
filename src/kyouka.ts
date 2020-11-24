@@ -32,6 +32,7 @@ import isBottomVisible from "./isBottomVisible";
 import isEmpty from "./isEmpty";
 import isPhoneNumber from "./isPhoneNumber";
 import JSONToCSV from "./JSONToCSV";
+import loadImageAsBase64URL from "./loadImageAsBase64URL";
 import mapKeys from "./mapKeys";
 import mapObject from "./mapObject";
 import mapValues from "./mapValues";
@@ -137,5 +138,6 @@ const kyoka = {
   reverseString,
   vh2px,
   px2vh,
+  loadImageAsBase64URL,
 };
 export default kyoka;
