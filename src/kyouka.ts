@@ -4,7 +4,7 @@ import attempt from "./attempt";
 import average from "./average";
 import compact from "./compact";
 import compose from "./compose";
-import copyToClipboard from './copyToClipboard';
+import copyToClipboard from "./copyToClipboard";
 import CSVToArray from "./CSVToArray";
 import CSVToJSON from "./CSVToJSON";
 import curry from "./curry";
@@ -17,7 +17,7 @@ import distance from "./distance";
 import equals from "./equals";
 import factorial from "./factorial";
 import formatDuration from "./formatDuration";
-import fromTimestamp from './fromTimestamp';
+import fromTimestamp from "./fromTimestamp";
 import getCenterPointPos from "./getCenterPointPos";
 import getMousePos from "./getMousePos";
 import { getScrollPosition, getScrollPositionAsVw } from "./getScrollPosition";
@@ -33,16 +33,19 @@ import intersection from "./intersection";
 import iosInputScrollFix from "./iosInputScrollFix";
 import isBottomVisible from "./isBottomVisible";
 import isEmpty from "./isEmpty";
-import isEven from './isEven';
-import isOdd from './isOdd';
+import isEven from "./isEven";
+import isOdd from "./isOdd";
 import isPhoneNumber from "./isPhoneNumber";
 import JSONToCSV from "./JSONToCSV";
 import loadImageAsBase64URL from "./loadImageAsBase64URL";
+import loadVideoAsBlob from "./loadVideoAsBlob";
 import mapKeys from "./mapKeys";
 import mapObject from "./mapObject";
 import mapValues from "./mapValues";
 import mask from "./mask";
+import maxN from "./maxN";
 import memorize from "./memorize";
+import minN from "./minN";
 import omit from "./omit";
 import partial from "./partial";
 import pick from "./pick";
@@ -60,7 +63,7 @@ import range from "./range";
 import requestInterval from "./requestInterval";
 import reverseString from "./reverseString";
 import sample from "./sample";
-import sampleSize from './sampleSize';
+import sampleSize from "./sampleSize";
 import shuffle from "./shuffle";
 import sleep from "./sleep";
 import sum from "./sum";
@@ -72,7 +75,7 @@ import uniq from "./uniq";
 import unzip from "./unzip";
 import vh2px from "./vh2px";
 import vw2px from "./vw2px";
-import yesNo from './yesNo';
+import yesNo from "./yesNo";
 import zip from "./zip";
 
 const kyoka = {
@@ -152,6 +155,9 @@ const kyoka = {
   isOdd,
   isEven,
   copyToClipboard,
-  yesNo
+  yesNo,
+  loadVideoAsBlob,
+  maxN,
+  minN,
 };
 export default kyoka;
