@@ -1,3 +1,6 @@
+import addHoursToDate from "./addHoursToDate";
+import addMinutesToDate from "./addMinutesToDate";
+import addSecondsToDate from "./addSecondsToDate";
 import animateNumber from "./animateNumber";
 import arrayToCSV from "./arrayToCSV";
 import attempt from "./attempt";
@@ -47,6 +50,7 @@ import maxN from "./maxN";
 import memorize from "./memorize";
 import minN from "./minN";
 import omit from "./omit";
+import padNumber from "./padNumber";
 import partial from "./partial";
 import pick from "./pick";
 import pluck from "./pluck";
@@ -159,5 +163,9 @@ const kyoka = {
   loadVideoAsBlob,
   maxN,
   minN,
+  padNumber,
+  addHoursToDate,
+  addMinutesToDate,
+  addSecondsToDate,
 };
 export default kyoka;
