@@ -5,10 +5,15 @@ import { Time } from "../types/types";
  *
  * @param {number} seconds
  */
-const formatDuration = (seconds: number): Time => ({
-    day: Math.floor(seconds / 86400),
-    hour: Math.floor(seconds / 3600) % 24,
-    minute: Math.floor(seconds / 60) % 60,
-    second: Math.floor(seconds) % 60
-});
+const formatDuration = (ms: number): Time => {
+  if (ms < 0) ms = -ms;
+  const time = {
+    day: Math.floor(ms / 86400000),
+    hour: Math.floor(ms / 3600000) % 24,
+    minute: Math.floor(ms / 60000) % 60,
+    second: Math.floor(ms / 1000) % 60,
+    millisecond: Math.floor(ms) % 1000,
+  };
+  return time;
+};
 export default formatDuration;
