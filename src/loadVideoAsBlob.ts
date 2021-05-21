@@ -4,7 +4,7 @@
  * @param cb
  * @param format
  */
-const loadVideoAsBlob = (file: File | Blob, cb: Function, format = "mp4") => {
+const loadVideoAsBlob = (file: any, cb: Function, format = "mp4") => {
   const reader = new FileReader();
   reader.readAsArrayBuffer(file);
   reader.addEventListener("load", () => {
