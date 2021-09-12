@@ -54,6 +54,7 @@ import maxN from "./maxN";
 import memorize from "./memorize";
 import minN from "./minN";
 import objectMap from "./objectMap";
+import objectToQueryString from "./objectToQueryString";
 import omit from "./omit";
 import padNumber from "./padNumber";
 import partial from "./partial";
@@ -179,5 +180,6 @@ const kyoka = {
   orderBy,
   head,
   last,
+  objectToQueryString,
 };
 export default kyoka;
