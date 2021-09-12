@@ -5,6 +5,7 @@ import animateNumber from "./animateNumber";
 import arrayToCSV from "./arrayToCSV";
 import attempt from "./attempt";
 import average from "./average";
+import chunk from "./chunk";
 import compact from "./compact";
 import compose from "./compose";
 import copyToClipboard from "./copyToClipboard";
@@ -28,6 +29,7 @@ import getTimeDeltaAsSeconds from "./getTimeDeltaAsSeconds";
 import getTimeFromDate from "./getTimeFromDate";
 import getTimestamp from "./getTimestamp";
 import getURLParameters from "./getURLParameters";
+import head from "./head";
 import includesAll from "./includesAll";
 import includesAny from "./includesAny";
 import initialize2DArray from "./initialize2DArray";
@@ -39,7 +41,9 @@ import isEmpty from "./isEmpty";
 import isEven from "./isEven";
 import isOdd from "./isOdd";
 import isPhoneNumber from "./isPhoneNumber";
+import isUrl from "./isUrl";
 import JSONToCSV from "./JSONToCSV";
+import last from "./last";
 import loadImageAsBase64URL from "./loadImageAsBase64URL";
 import loadVideoAsBlob from "./loadVideoAsBlob";
 import mapKeys from "./mapKeys";
@@ -49,6 +53,7 @@ import mask from "./mask";
 import maxN from "./maxN";
 import memorize from "./memorize";
 import minN from "./minN";
+import objectMap from "./objectMap";
 import omit from "./omit";
 import padNumber from "./padNumber";
 import partial from "./partial";
@@ -70,6 +75,7 @@ import sample from "./sample";
 import sampleSize from "./sampleSize";
 import shuffle from "./shuffle";
 import sleep from "./sleep";
+import orderBy from "./orderBy";
 import sum from "./sum";
 import sumPower from "./sumPower";
 import throttle from "./throttle";
@@ -167,5 +173,11 @@ const kyoka = {
   addHoursToDate,
   addMinutesToDate,
   addSecondsToDate,
+  chunk,
+  isUrl,
+  objectMap,
+  orderBy,
+  head,
+  last,
 };
 export default kyoka;
