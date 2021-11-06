@@ -5,7 +5,12 @@
  * @param to
  * @param duration
  */
-const animateNumber = (cb: Function, from: number, to: number, duration: number) => {
+const animateNumber = (
+  cb: Function,
+  from: number,
+  to: number,
+  duration: number
+) => {
   let start: number | null = null;
   let animate = (timestamp: number) => {
     start = start || timestamp;

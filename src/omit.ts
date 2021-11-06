@@ -5,7 +5,7 @@
  * @param {any[]} arr
  */
 const omit = (obj: any, arr: string[]) =>
-    Object.keys(obj)
-        .filter(k => !arr.includes(k))
-        .reduce((acc: any, key) => ((acc[key] = obj[key]), acc), {});
+  Object.keys(obj)
+    .filter((k) => !arr.includes(k))
+    .reduce((acc: any, key) => ((acc[key] = obj[key]), acc), {});
 export default omit;

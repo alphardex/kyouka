@@ -1,5 +1,5 @@
 import { Point } from "../types/types";
-import kyoka from "./kyouka";
+import ky from "./kyouka";
 
 /**
  * Get the scroll position.
@@ -11,12 +11,18 @@ import kyoka from "./kyouka";
 const getScrollPosition = (el: any = null, unit = "px"): Point => {
   el = el ? el : window;
   const scrollPosition = {
-    x: el.pageXOffset !== undefined ? el.pageXOffset : ((el as unknown) as Element).scrollLeft,
-    y: el.pageYOffset !== undefined ? el.pageYOffset : ((el as unknown) as Element).scrollTop,
+    x:
+      el.pageXOffset !== undefined
+        ? el.pageXOffset
+        : (el as unknown as Element).scrollLeft,
+    y:
+      el.pageYOffset !== undefined
+        ? el.pageYOffset
+        : (el as unknown as Element).scrollTop,
   };
   if (unit === "vw") {
-    scrollPosition.x = kyoka.px2vw(scrollPosition.x);
-    scrollPosition.y = kyoka.px2vw(scrollPosition.y);
+    scrollPosition.x = ky.px2vw(scrollPosition.x);
+    scrollPosition.y = ky.px2vw(scrollPosition.y);
   }
   return scrollPosition;
 };
@@ -27,5 +33,7 @@ const getScrollPosition = (el: any = null, unit = "px"): Point => {
  * @param {any}
  * @returns {Point}
  */
-const getScrollPositionAsVw = (el: any = null): Point => getScrollPosition(el, "vw");
+const getScrollPositionAsVw = (el: any = null): Point =>
+  getScrollPosition(el, "vw");
+
 export { getScrollPosition, getScrollPositionAsVw };

@@ -5,5 +5,6 @@
  * @param {number} max
  * @returns {number}
  */
-const randomNumberInRange = (min: number, max: number): number => Math.random() * (max - min) + min;
+const randomNumberInRange = (min: number, max: number): number =>
+  Math.random() * (max - min) + min;
 export default randomNumberInRange;

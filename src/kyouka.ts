@@ -6,6 +6,7 @@ import arrayToCSV from "./arrayToCSV";
 import attempt from "./attempt";
 import average from "./average";
 import chunk from "./chunk";
+import clamp from "./clamp";
 import compact from "./compact";
 import compose from "./compose";
 import copyToClipboard from "./copyToClipboard";
@@ -15,6 +16,7 @@ import curry from "./curry";
 import debounce from "./debounce";
 import deepClone from "./deepClone";
 import deg2rad from "./deg2rad";
+import degreesAngle from "./degreesAngle";
 import detectDeviceType from "./detectDeviceType";
 import disableTouchMove from "./disableTouchMove";
 import distance from "./distance";
@@ -37,21 +39,26 @@ import initializeArrayWithValues from "./initializeArrayWithValues";
 import intersection from "./intersection";
 import iosInputScrollFix from "./iosInputScrollFix";
 import isBottomVisible from "./isBottomVisible";
+import isElBottomVisible from "./isElBottomVisible";
 import isEmpty from "./isEmpty";
 import isEven from "./isEven";
+import isIdcard from "./isIdcard";
 import isOdd from "./isOdd";
 import isPhoneNumber from "./isPhoneNumber";
 import isUrl from "./isUrl";
 import JSONToCSV from "./JSONToCSV";
 import last from "./last";
+import lerp from "./lerp";
 import loadImageAsBase64URL from "./loadImageAsBase64URL";
 import loadVideoAsBlob from "./loadVideoAsBlob";
 import mapKeys from "./mapKeys";
 import mapObject from "./mapObject";
 import mapValues from "./mapValues";
 import mask from "./mask";
+import maxBy from "./maxBy";
 import maxN from "./maxN";
 import memorize from "./memorize";
+import minBy from "./minBy";
 import minN from "./minN";
 import objectMap from "./objectMap";
 import objectToQueryString from "./objectToQueryString";
@@ -65,11 +72,14 @@ import promisify from "./promisify";
 import px2vh from "./px2vh";
 import px2vw from "./px2vw";
 import rad2deg from "./rad2deg";
+import radiansAngle from "./radiansAngle";
 import randomHexColorCode from "./randomHexColorCode";
 import randomIntArrayInRange from "./randomIntArrayInRange";
 import randomIntegerInRange from "./randomIntegerInRange";
 import randomNumberInRange from "./randomNumberInRange";
 import range from "./range";
+import reload from "./reload";
+import repeatArray from "./repeatArray";
 import requestInterval from "./requestInterval";
 import reverseString from "./reverseString";
 import sample from "./sample";
@@ -181,5 +191,15 @@ const kyoka = {
   head,
   last,
   objectToQueryString,
+  clamp,
+  isElBottomVisible,
+  isIdcard,
+  lerp,
+  maxBy,
+  minBy,
+  reload,
+  repeatArray,
+  degreesAngle,
+  radiansAngle,
 };
 export default kyoka;

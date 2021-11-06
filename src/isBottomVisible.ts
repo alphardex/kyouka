@@ -4,5 +4,6 @@
  * @param {number} [offset=0]
  * @returns {boolean}
  */
-const isBottomVisible = (offset = 0): boolean => (window.innerHeight + window.scrollY) >= (document.body.offsetHeight - offset);
+const isBottomVisible = (offset = 0): boolean =>
+  window.innerHeight + window.scrollY >= document.body.offsetHeight - offset;
 export default isBottomVisible;

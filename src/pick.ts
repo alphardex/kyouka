@@ -5,5 +5,8 @@
  * @param {string[]} arr
  */
 const pick = (obj: any, arr: string[]) =>
-    arr.reduce((acc: any, curr) => (curr in obj && (acc[curr] = obj[curr]), acc), {});
-export default pick
+  arr.reduce(
+    (acc: any, curr) => (curr in obj && (acc[curr] = obj[curr]), acc),
+    {}
+  );
+export default pick;

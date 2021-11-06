@@ -3,5 +3,8 @@
  * @param fn
  * @param partials
  */
-const partial = (fn: Function, ...partials: any[]) => (...args: any[]) => fn(...partials, ...args);
+const partial =
+  (fn: Function, ...partials: any[]) =>
+  (...args: any[]) =>
+    fn(...partials, ...args);
 export default partial;

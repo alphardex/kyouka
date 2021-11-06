@@ -7,5 +7,5 @@
  * @returns {any[][]}
  */
 const initialize2DArray = (w: number, h: number, val = null): any[][] =>
-    Array.from({ length: h }).map(() => Array.from({ length: w }).fill(val));
+  Array.from({ length: h }).map(() => Array.from({ length: w }).fill(val));
 export default initialize2DArray;
