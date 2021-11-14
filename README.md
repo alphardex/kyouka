@@ -16,13 +16,7 @@
 ## Install
 
 ```sh
-npm i
-```
-
-## Run tests
-
-```sh
-npm run test
+npm i kyouka
 ```
 
 ## Author
