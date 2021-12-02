@@ -1,6 +1,8 @@
+import addDaysToDate from "./addDaysToDate";
 import addHoursToDate from "./addHoursToDate";
 import addMinutesToDate from "./addMinutesToDate";
 import addSecondsToDate from "./addSecondsToDate";
+import addWeeksToDate from "./addWeeksToDate";
 import animateNumber from "./animateNumber";
 import arrayToCSV from "./arrayToCSV";
 import attempt from "./attempt";
@@ -31,6 +33,7 @@ import getTimeDeltaAsSeconds from "./getTimeDeltaAsSeconds";
 import getTimeFromDate from "./getTimeFromDate";
 import getTimestamp from "./getTimestamp";
 import getURLParameters from "./getURLParameters";
+import groupBy from "./groupBy";
 import head from "./head";
 import includesAll from "./includesAll";
 import includesAny from "./includesAny";
@@ -201,5 +204,8 @@ const kyoka = {
   repeatArray,
   degreesAngle,
   radiansAngle,
+  addDaysToDate,
+  addWeeksToDate,
+  groupBy,
 };
 export default kyoka;
