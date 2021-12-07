@@ -8,6 +8,7 @@ import arrayToCSV from "./arrayToCSV";
 import attempt from "./attempt";
 import average from "./average";
 import chunk from "./chunk";
+import chunkMultiSize from "./chunkMultiSize";
 import clamp from "./clamp";
 import compact from "./compact";
 import compose from "./compose";
@@ -207,5 +208,6 @@ const kyoka = {
   addDaysToDate,
   addWeeksToDate,
   groupBy,
+  chunkMultiSize,
 };
 export default kyoka;
