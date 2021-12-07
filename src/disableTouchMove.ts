@@ -1,14 +1,11 @@
+import preventDefault from "./preventDefault";
+
 /**
- * Disable touchmove.
- *
+ * Disable touchmove event.
  */
 const disableTouchMove = () => {
-  document.body.addEventListener(
-    "touchmove",
-    (e) => {
-      e.preventDefault();
-    },
-    { passive: false }
-  );
+  document.body.addEventListener("touchmove", preventDefault, {
+    passive: false,
+  });
 };
 export default disableTouchMove;

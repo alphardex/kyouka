@@ -13,9 +13,12 @@ import clamp from "./clamp";
 import compact from "./compact";
 import compose from "./compose";
 import copyToClipboard from "./copyToClipboard";
+import countOccurrences from "./countOccurrences";
 import CSVToArray from "./CSVToArray";
 import CSVToJSON from "./CSVToJSON";
 import curry from "./curry";
+import dataURItoFile from "./dataURItoFile";
+import dateRange from "./dateRange";
 import debounce from "./debounce";
 import deepClone from "./deepClone";
 import deg2rad from "./deg2rad";
@@ -23,12 +26,15 @@ import degreesAngle from "./degreesAngle";
 import detectDeviceType from "./detectDeviceType";
 import disableTouchMove from "./disableTouchMove";
 import distance from "./distance";
+import enableTouchMove from "./enableTouchMove";
 import equals from "./equals";
 import factorial from "./factorial";
 import formatDuration from "./formatDuration";
+import frequencies from "./frequencies";
 import fromTimestamp from "./fromTimestamp";
 import getCenterPointPos from "./getCenterPointPos";
 import getMousePos from "./getMousePos";
+import getNormalizedMousePos from "./getNormalizedMousePos";
 import { getScrollPosition, getScrollPositionAsVw } from "./getScrollPosition";
 import getTimeDeltaAsSeconds from "./getTimeDeltaAsSeconds";
 import getTimeFromDate from "./getTimeFromDate";
@@ -104,7 +110,6 @@ import yesNo from "./yesNo";
 import zip from "./zip";
 
 const kyoka = {
-  disableTouchMove,
   getCenterPointPos,
   getMousePos,
   getTimeFromDate,
@@ -209,5 +214,12 @@ const kyoka = {
   addWeeksToDate,
   groupBy,
   chunkMultiSize,
+  disableTouchMove,
+  enableTouchMove,
+  getNormalizedMousePos,
+  dataURItoFile,
+  dateRange,
+  frequencies,
+  countOccurrences,
 };
 export default kyoka;
