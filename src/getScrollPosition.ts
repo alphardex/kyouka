@@ -1,5 +1,5 @@
 import { Point } from "../types/types";
-import ky from "./kyouka";
+import px2vw from "./px2vw";
 
 /**
  * Get the scroll position.
@@ -21,8 +21,8 @@ const getScrollPosition = (el: any = null, unit = "px"): Point => {
         : (el as unknown as Element).scrollTop,
   };
   if (unit === "vw") {
-    scrollPosition.x = ky.px2vw(scrollPosition.x);
-    scrollPosition.y = ky.px2vw(scrollPosition.y);
+    scrollPosition.x = px2vw(scrollPosition.x);
+    scrollPosition.y = px2vw(scrollPosition.y);
   }
   return scrollPosition;
 };

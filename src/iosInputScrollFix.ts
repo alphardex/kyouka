@@ -1,11 +1,11 @@
-import kyoka from "./kyouka";
+import detectDeviceType from "./detectDeviceType";
 
 /**
  * Use scroll to fix ios input bug. (Mobile only)
  *
  */
 const iosInputScrollFix = () => {
-  const isMobile = kyoka.detectDeviceType() === "Mobile";
+  const isMobile = detectDeviceType() === "Mobile";
   if (isMobile) {
     document.querySelectorAll("input, select, textarea").forEach((input) => {
       input.addEventListener("blur", () => {
