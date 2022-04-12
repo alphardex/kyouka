@@ -7,7 +7,7 @@ const attempt = (fn: Function, ...args: any[]) => {
   try {
     return fn(...args);
   } catch (e) {
-    return e instanceof Error ? e : new Error(e);
+    return e instanceof Error ? e : new Error(e as any);
   }
 };
 export default attempt;

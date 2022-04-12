@@ -19,6 +19,7 @@ const throttle = (fn: Function, wait: number) => {
       inThrottle = true;
     } else {
       clearTimeout(lastFn);
+      // @ts-ignore
       lastFn = setTimeout(function () {
         if (Date.now() - lastTime >= wait) {
           fn.apply(context, args);
