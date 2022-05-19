@@ -4,7 +4,7 @@
  * @param start
  * @param end
  */
-const loopSlice = (arr: any, start: number, end: number) => {
+const loopSlice = (arr: any[], start: number, end: number) => {
   const [a, b] = [start, end];
   if (b >= a) {
     return arr.slice(a, b);
