@@ -61,6 +61,7 @@ import last from "./last";
 import lerp from "./lerp";
 import loadImageAsBase64URL from "./loadImageAsBase64URL";
 import loadVideoAsBlob from "./loadVideoAsBlob";
+import loopSlice from "./loopSlice";
 import mapKeys from "./mapKeys";
 import mapObject from "./mapObject";
 import mapValues from "./mapValues";
@@ -221,5 +222,6 @@ const kyoka = {
   dateRange,
   frequencies,
   countOccurrences,
+  loopSlice,
 };
 export default kyoka;
