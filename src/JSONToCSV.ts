@@ -16,4 +16,5 @@ const JSONtoCSV = (arr: any[], columns: string[], delimiter = ",") =>
       )
     ),
   ].join("\n");
+
 export default JSONtoCSV;

@@ -8,4 +8,5 @@ const frequencies = (arr: any[]) =>
     a[v] = a[v] ? a[v] + 1 : 1;
     return a;
   }, {});
+
 export default frequencies;

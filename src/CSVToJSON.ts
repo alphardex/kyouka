@@ -19,4 +19,5 @@ const CSVToJSON = (data: string, delimiter = ",") => {
       );
     });
 };
+
 export default CSVToJSON;

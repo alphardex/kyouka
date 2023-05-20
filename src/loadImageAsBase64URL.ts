@@ -11,4 +11,5 @@ const loadImageAsBase64URL = (blob: any, cb: Function) => {
     cb(base64URL);
   });
 };
+
 export default loadImageAsBase64URL;

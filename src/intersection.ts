@@ -7,4 +7,5 @@ const intersection = (a: any, b: any) => {
   const s = new Set(b);
   return [...new Set(a)].filter((x) => s.has(x));
 };
+
 export default intersection;

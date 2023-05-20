@@ -12,4 +12,5 @@ const shuffle = ([...arr]) => {
   }
   return arr;
 };
+
 export default shuffle;

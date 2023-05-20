@@ -6,4 +6,5 @@ import preventDefault from "./preventDefault";
 const enableTouchMove = () => {
   document.body.removeEventListener("touchmove", preventDefault);
 };
+
 export default enableTouchMove;

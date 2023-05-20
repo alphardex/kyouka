@@ -16,4 +16,5 @@ const chunkMultiSize = (arr: any[], chunkSizes: number[]) => {
   }
   return chunkArray;
 };
+
 export default chunkMultiSize;

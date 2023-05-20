@@ -13,4 +13,5 @@ const debounce = (fn: Function, ms = 0) => {
     timeoutId = setTimeout(() => fn.apply(this, args), ms);
   };
 };
+
 export default debounce;

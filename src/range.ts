@@ -11,4 +11,5 @@ const range = function* (start: number, end: number, step = 1) {
     i += step;
   }
 };
+
 export default range;

@@ -10,4 +10,5 @@ const attempt = (fn: Function, ...args: any[]) => {
     return e instanceof Error ? e : new Error(e as any);
   }
 };
+
 export default attempt;

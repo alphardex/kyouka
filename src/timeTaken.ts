@@ -8,4 +8,5 @@ const timeTaken = (cb: Function) => {
   console.timeEnd("timeTaken");
   return r;
 };
+
 export default timeTaken;

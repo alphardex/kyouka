@@ -11,4 +11,5 @@ const randomIntArrayInRange = (min: number, max: number, n = 1): number[] =>
     { length: n },
     () => Math.floor(Math.random() * (max - min + 1)) + min
   );
+
 export default randomIntArrayInRange;

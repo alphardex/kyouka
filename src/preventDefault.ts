@@ -1,5 +1,5 @@
 /**
- * e.preventDefault()
+ * Equals to e.preventDefault().
  * @param e
  */
 const preventDefault = (e: any) => {

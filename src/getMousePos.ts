@@ -11,4 +11,5 @@ const getMousePos = (ev: any): Point => {
   let y = (ev as MouseEvent).clientY;
   return { x, y };
 };
+
 export default getMousePos;

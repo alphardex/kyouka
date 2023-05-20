@@ -11,4 +11,5 @@ const dateRange = function* (start: Date, end: Date, step = 1) {
     d.setDate(d.getDate() + step);
   }
 };
+
 export default dateRange;

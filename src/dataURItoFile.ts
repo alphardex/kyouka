@@ -15,4 +15,5 @@ const dataURItoFile = (dataURI: string, filename = "1.jpg"): any => {
   }
   return new File([intArray], filename, { type: mimeString });
 };
+
 export default dataURItoFile;

@@ -8,4 +8,5 @@ const zip = (...arrays: any[]) => {
     return Array.from({ length: arrays.length }, (_, k) => arrays[k][i]);
   });
 };
+
 export default zip;

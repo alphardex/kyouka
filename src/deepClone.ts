@@ -18,4 +18,5 @@ const deepClone = (obj: any) => {
     ? Array.from(obj)
     : clone;
 };
+
 export default deepClone;

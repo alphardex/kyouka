@@ -5,4 +5,5 @@
  * @returns
  */
 const padNumber = (n: number, l: number) => `${n}`.padStart(l, "0");
+
 export default padNumber;

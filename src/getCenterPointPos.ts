@@ -12,4 +12,5 @@ const getCenterPointPos = (el: any): Point => {
   const y = rect.top + rect.height / 2;
   return { x, y };
 };
+
 export default getCenterPointPos;

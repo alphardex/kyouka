@@ -14,4 +14,5 @@ const iosInputScrollFix = () => {
     });
   }
 };
+
 export default iosInputScrollFix;

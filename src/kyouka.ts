@@ -224,4 +224,5 @@ const kyoka = {
   countOccurrences,
   loopSlice,
 };
+
 export default kyoka;

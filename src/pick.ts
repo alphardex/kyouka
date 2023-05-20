@@ -9,4 +9,5 @@ const pick = (obj: any, arr: string[]) =>
     (acc: any, curr) => (curr in obj && (acc[curr] = obj[curr]), acc),
     {}
   );
+
 export default pick;

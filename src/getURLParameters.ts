@@ -11,4 +11,5 @@ const getURLParameters = (url: string): {} =>
     ),
     {}
   );
+
 export default getURLParameters;

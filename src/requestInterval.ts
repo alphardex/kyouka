@@ -20,4 +20,5 @@ const requestInterval = (fn: Function, delay: number) => {
   handle.value = requestAnimationFrame(loop);
   return handle;
 };
+
 export default requestInterval;

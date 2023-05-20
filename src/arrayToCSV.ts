@@ -12,4 +12,5 @@ const arrayToCSV = (arr: any[], delimiter = ",") =>
         .join(delimiter)
     )
     .join("\n");
+
 export default arrayToCSV;

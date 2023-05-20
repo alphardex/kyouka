@@ -14,4 +14,5 @@ const memorize = (fn: Function) => {
   cached.cache = cache;
   return cached;
 };
+
 export default memorize;

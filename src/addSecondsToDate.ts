@@ -8,4 +8,5 @@ const addSecondsToDate = (d: Date, n: number) => {
   d.setTime(d.getTime() + n * 1000);
   return d;
 };
+
 export default addSecondsToDate;

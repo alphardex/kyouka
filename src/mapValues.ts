@@ -9,4 +9,5 @@ const mapValues = (obj: {}, fn: Function) =>
     (acc as any)[k] = fn((obj as any)[k], k, obj);
     return acc;
   }, {});
+
 export default mapValues;

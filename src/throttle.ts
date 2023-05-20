@@ -29,4 +29,5 @@ const throttle = (fn: Function, wait: number) => {
     }
   };
 };
+
 export default throttle;

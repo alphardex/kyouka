@@ -9,4 +9,5 @@ const mapKeys = (obj: {}, fn: Function) =>
     (acc as any)[fn((obj as any)[k], k, obj)] = (obj as any)[k];
     return acc;
   }, {});
+
 export default mapKeys;

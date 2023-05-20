@@ -8,4 +8,5 @@ const detectDeviceType = () => {
     ? "Mobile"
     : "Desktop";
 };
+
 export default detectDeviceType;

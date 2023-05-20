@@ -12,4 +12,5 @@ const loopSlice = (arr: any[], start: number, end: number) => {
     return [...arr.slice(a, arr.length), ...arr.slice(0, b)];
   }
 };
+
 export default loopSlice;

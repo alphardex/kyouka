@@ -14,4 +14,5 @@ const getTimeDeltaAsSeconds = (
   const ms = Math.floor(diff);
   return ms;
 };
+
 export default getTimeDeltaAsSeconds;

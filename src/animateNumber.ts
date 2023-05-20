@@ -24,4 +24,5 @@ const animateNumber = (
   };
   window.requestAnimationFrame(animate);
 };
+
 export default animateNumber;

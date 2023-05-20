@@ -21,4 +21,5 @@ const copyToClipboard = (str: string) => {
     document.getSelection()!.addRange(selected);
   }
 };
+
 export default copyToClipboard;

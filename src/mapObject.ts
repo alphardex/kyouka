@@ -9,4 +9,5 @@ const mapObject = (arr: [], fn: Function) =>
     (acc as any)[el] = fn(el, i, arr);
     return acc;
   }, {});
+
 export default mapObject;

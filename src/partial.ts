@@ -7,4 +7,5 @@ const partial =
   (fn: Function, ...partials: any[]) =>
   (...args: any[]) =>
     fn(...partials, ...args);
+
 export default partial;

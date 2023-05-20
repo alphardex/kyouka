@@ -16,4 +16,5 @@ const loadVideoAsBlob = (file: any, cb: Function, format = "mp4") => {
     cb(blob);
   });
 };
+
 export default loadVideoAsBlob;

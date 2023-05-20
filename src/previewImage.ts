@@ -19,4 +19,5 @@ const previewImage = (inputEl: any, imgEl: any, cb: Function) => {
     });
   });
 };
+
 export default previewImage;

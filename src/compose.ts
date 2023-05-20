@@ -8,4 +8,5 @@ const compose = (...fns: Function[]) =>
       (...args: any[]) =>
         f(g(...args))
   );
+
 export default compose;

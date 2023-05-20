@@ -8,4 +8,5 @@ const disableTouchMove = () => {
     passive: false,
   });
 };
+
 export default disableTouchMove;

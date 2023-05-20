@@ -16,4 +16,5 @@ const formatDuration = (ms: number): Time => {
   };
   return time;
 };
+
 export default formatDuration;

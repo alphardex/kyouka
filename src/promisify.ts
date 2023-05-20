@@ -10,4 +10,5 @@ const promisify =
         err ? reject(err) : resolve(result)
       )
     );
+
 export default promisify;

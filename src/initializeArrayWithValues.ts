@@ -6,4 +6,5 @@
  */
 const initializeArrayWithValues = (n: number, val = 0): any[] =>
   Array(n).fill(val);
+
 export default initializeArrayWithValues;
