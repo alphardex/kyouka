@@ -1,6 +1,8 @@
-<p align="center">
+<div align="center">
   <img src="./assets/logo.png" width="200">
-</p>
+  <h1>kyouka</h1>
+  <p>My Typescript helper function library.</p>
+</div>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.3.6-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -11,7 +13,7 @@
   </a>
 </p>
 
-> My Typescript helper function library.
+> Hikawa Kyouka, a cute girl in Princess Connect! Re:Dive.
 
 ## Install
 
