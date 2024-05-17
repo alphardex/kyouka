@@ -40,6 +40,7 @@ import fromTimestamp from "./fromTimestamp";
 import getCenterPointPos from "./getCenterPointPos";
 import getMousePos from "./getMousePos";
 import getNormalizedMousePos from "./getNormalizedMousePos";
+import getRandString from "./getRandString";
 import { getScrollPosition, getScrollPositionAsVw } from "./getScrollPosition";
 import getTimeDeltaAsSeconds from "./getTimeDeltaAsSeconds";
 import getTimeFromDate from "./getTimeFromDate";
@@ -47,6 +48,7 @@ import getTimestamp from "./getTimestamp";
 import getURLParameters from "./getURLParameters";
 import groupBy from "./groupBy";
 import head from "./head";
+import hexToRgb from "./hexToRgb";
 import includesAll from "./includesAll";
 import includesAny from "./includesAny";
 import initialize2DArray from "./initialize2DArray";
@@ -63,6 +65,7 @@ import isNumeric from "./isNumeric";
 import isObject from "./isObject";
 import isOdd from "./isOdd";
 import isPhoneNumber from "./isPhoneNumber";
+import isPositiveInteger from "./isPositiveInteger";
 import isToday from "./isToday";
 import isUrl from "./isUrl";
 import JSONToCSV from "./JSONToCSV";
@@ -99,11 +102,14 @@ import randomIntegerInRange from "./randomIntegerInRange";
 import randomNumberInRange from "./randomNumberInRange";
 import range from "./range";
 import reload from "./reload";
+import remove from "./remove";
 import repeatArray from "./repeatArray";
 import requestInterval from "./requestInterval";
 import reverseString from "./reverseString";
 import sample from "./sample";
 import sampleSize from "./sampleSize";
+import setCharAt from "./setChatAt";
+import setInnerHTML from "./setInnerHTML";
 import shuffle from "./shuffle";
 import sleep from "./sleep";
 import orderBy from "./orderBy";
@@ -114,6 +120,7 @@ import timeTaken from "./timeTaken";
 import toFixed0 from "./toFixed0";
 import toFixed1 from "./toFixed1";
 import toFixed2 from "./toFixed2";
+import toFixed3 from "./toFixed3";
 import toHttps from "./toHttps";
 import union from "./union";
 import uniq from "./uniq";
@@ -249,6 +256,13 @@ const kyoka = {
   toFixed0,
   toFixed1,
   toFixed2,
+  toFixed3,
+  setCharAt,
+  remove,
+  isPositiveInteger,
+  setInnerHTML,
+  hexToRgb,
+  getRandString,
 };
 
 export default kyoka;
