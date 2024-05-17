@@ -4,7 +4,7 @@
   <p>My Typescript helper function library.</p>
 </div>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.3.6-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/npm/v/kyouka" />
   <a href="https://github.com/alphardex/kyouka/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
@@ -19,6 +19,15 @@
 
 ```sh
 npm i kyouka
+```
+
+## Usage
+
+```js
+import ky from "kyouka";
+
+console.log(ky.isEmpty({}));
+// true
 ```
 
 ## Author
