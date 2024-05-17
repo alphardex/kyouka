@@ -7,11 +7,16 @@ import animateNumber from "./animateNumber";
 import arrayToCSV from "./arrayToCSV";
 import attempt from "./attempt";
 import average from "./average";
+import castArray from "./castArray";
 import chunk from "./chunk";
 import chunkMultiSize from "./chunkMultiSize";
 import clamp from "./clamp";
+import cleanObject from "./cleanObject";
 import compact from "./compact";
+import compatibleDate from "./compatibleDate";
 import compose from "./compose";
+import convertLetterToNumber from "./convertLetterToNumber";
+import convertNumberToLetter from "./convertNumberToLetter";
 import copyToClipboard from "./copyToClipboard";
 import countOccurrences from "./countOccurrences";
 import CSVToArray from "./CSVToArray";
@@ -53,8 +58,12 @@ import isElBottomVisible from "./isElBottomVisible";
 import isEmpty from "./isEmpty";
 import isEven from "./isEven";
 import isIdcard from "./isIdcard";
+import isNumber from "./isNumber";
+import isNumeric from "./isNumeric";
+import isObject from "./isObject";
 import isOdd from "./isOdd";
 import isPhoneNumber from "./isPhoneNumber";
+import isToday from "./isToday";
 import isUrl from "./isUrl";
 import JSONToCSV from "./JSONToCSV";
 import last from "./last";
@@ -102,6 +111,10 @@ import sum from "./sum";
 import sumPower from "./sumPower";
 import throttle from "./throttle";
 import timeTaken from "./timeTaken";
+import toFixed0 from "./toFixed0";
+import toFixed1 from "./toFixed1";
+import toFixed2 from "./toFixed2";
+import toHttps from "./toHttps";
 import union from "./union";
 import uniq from "./uniq";
 import unzip from "./unzip";
@@ -223,6 +236,19 @@ const kyoka = {
   frequencies,
   countOccurrences,
   loopSlice,
+  castArray,
+  compatibleDate,
+  toHttps,
+  cleanObject,
+  isToday,
+  isNumber,
+  isNumeric,
+  isObject,
+  convertLetterToNumber,
+  convertNumberToLetter,
+  toFixed0,
+  toFixed1,
+  toFixed2,
 };
 
 export default kyoka;
