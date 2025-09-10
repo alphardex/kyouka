@@ -33,6 +33,7 @@ import detectDeviceType from "./detectDeviceType";
 import disableTouchMove from "./disableTouchMove";
 import distance from "./distance";
 import doOnce from "./doOnce";
+import doOncePerDay from "./doOncePerDay";
 import enableTouchMove from "./enableTouchMove";
 import equals from "./equals";
 import factorial from "./factorial";
@@ -279,6 +280,7 @@ const kyoka = {
   calculateDateDifference,
   getDateProgress,
   isInCurrentQuarter,
+  doOncePerDay,
 };
 
 export default kyoka;

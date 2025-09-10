@@ -4,7 +4,7 @@
  * @param cb
  * @param storage
  */
-const doOnce = (cacheName: string, cb: any, storage = "session") => {
+const doOnce = (cacheName: string, cb: () => void, storage = "session") => {
   // @ts-ignore
   const cache = window[storage + "Storage"];
   if (!cache.getItem(cacheName)) {
