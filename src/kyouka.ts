@@ -7,6 +7,7 @@ import animateNumber from "./animateNumber";
 import arrayToCSV from "./arrayToCSV";
 import attempt from "./attempt";
 import average from "./average";
+import calculateDateDifference from "./calculateDateDifference";
 import castArray from "./castArray";
 import chunk from "./chunk";
 import chunkMultiSize from "./chunkMultiSize";
@@ -40,6 +41,7 @@ import formatDuration from "./formatDuration";
 import frequencies from "./frequencies";
 import fromTimestamp from "./fromTimestamp";
 import getCenterPointPos from "./getCenterPointPos";
+import getDateProgress from "./getDateProgress";
 import getMousePos from "./getMousePos";
 import getNormalizedMousePos from "./getNormalizedMousePos";
 import getRandString from "./getRandString";
@@ -62,6 +64,7 @@ import isElBottomVisible from "./isElBottomVisible";
 import isEmpty from "./isEmpty";
 import isEven from "./isEven";
 import isIdcard from "./isIdcard";
+import isInCurrentQuarter from "./isInCurrentQuarter";
 import isNumber from "./isNumber";
 import isNumeric from "./isNumeric";
 import isObject from "./isObject";
@@ -273,6 +276,9 @@ const kyoka = {
   scrollToBottom,
   fileToBinaryString,
   stringifyObject,
+  calculateDateDifference,
+  getDateProgress,
+  isInCurrentQuarter,
 };
 
 export default kyoka;
