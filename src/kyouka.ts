@@ -31,9 +31,11 @@ import degreesAngle from "./degreesAngle";
 import detectDeviceType from "./detectDeviceType";
 import disableTouchMove from "./disableTouchMove";
 import distance from "./distance";
+import doOnce from "./doOnce";
 import enableTouchMove from "./enableTouchMove";
 import equals from "./equals";
 import factorial from "./factorial";
+import fileToBinaryString from "./fileToBinaryString";
 import formatDuration from "./formatDuration";
 import frequencies from "./frequencies";
 import fromTimestamp from "./fromTimestamp";
@@ -90,6 +92,7 @@ import padNumber from "./padNumber";
 import partial from "./partial";
 import pick from "./pick";
 import pluck from "./pluck";
+import preloadAudios from "./preloadAudios";
 import previewImage from "./previewImage";
 import promisify from "./promisify";
 import px2vh from "./px2vh";
@@ -108,10 +111,12 @@ import requestInterval from "./requestInterval";
 import reverseString from "./reverseString";
 import sample from "./sample";
 import sampleSize from "./sampleSize";
+import scrollToBottom from "./scrollToBottom";
 import setCharAt from "./setChatAt";
 import setInnerHTML from "./setInnerHTML";
 import shuffle from "./shuffle";
 import sleep from "./sleep";
+import stringifyObject from "./stringifyObject";
 import orderBy from "./orderBy";
 import sum from "./sum";
 import sumPower from "./sumPower";
@@ -263,6 +268,11 @@ const kyoka = {
   setInnerHTML,
   hexToRgb,
   getRandString,
+  preloadAudios,
+  doOnce,
+  scrollToBottom,
+  fileToBinaryString,
+  stringifyObject,
 };
 
 export default kyoka;
