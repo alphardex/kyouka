@@ -33,11 +33,13 @@ import detectDeviceType from "./detectDeviceType";
 import disableTouchMove from "./disableTouchMove";
 import distance from "./distance";
 import doOnce from "./doOnce";
+import doOnceOrAnother from "./doOnceOrAnother";
 import doOncePerDay from "./doOncePerDay";
 import enableTouchMove from "./enableTouchMove";
 import equals from "./equals";
 import factorial from "./factorial";
 import fileToBinaryString from "./fileToBinaryString";
+import { findRecursive, findAllRecursive } from "./findRecursive";
 import formatDuration from "./formatDuration";
 import frequencies from "./frequencies";
 import fromTimestamp from "./fromTimestamp";
@@ -59,6 +61,7 @@ import includesAny from "./includesAny";
 import initialize2DArray from "./initialize2DArray";
 import initializeArrayWithValues from "./initializeArrayWithValues";
 import intersection from "./intersection";
+import intersectionBy from "./intersectionBy";
 import iosInputScrollFix from "./iosInputScrollFix";
 import isBottomVisible from "./isBottomVisible";
 import isElBottomVisible from "./isElBottomVisible";
@@ -94,6 +97,7 @@ import objectToQueryString from "./objectToQueryString";
 import omit from "./omit";
 import padNumber from "./padNumber";
 import partial from "./partial";
+import partialRight from "./partialRight";
 import pick from "./pick";
 import pluck from "./pluck";
 import preloadAudios from "./preloadAudios";
@@ -120,6 +124,7 @@ import setCharAt from "./setChatAt";
 import setInnerHTML from "./setInnerHTML";
 import shuffle from "./shuffle";
 import sleep from "./sleep";
+import sortBy from "./sortBy";
 import stringifyObject from "./stringifyObject";
 import orderBy from "./orderBy";
 import sum from "./sum";
@@ -281,6 +286,12 @@ const kyoka = {
   getDateProgress,
   isInCurrentQuarter,
   doOncePerDay,
+  doOnceOrAnother,
+  findRecursive,
+  findAllRecursive,
+  partialRight,
+  intersectionBy,
+  sortBy,
 };
 
 export default kyoka;

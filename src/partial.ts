@@ -1,5 +1,5 @@
 /**
- * Creates a function that invokes fn with partials prepended to the arguments it receives.
+ * Creates a function that invokes `fn` with `partials` prepended to the arguments it receives.
  * @param fn
  * @param partials
  */
