@@ -41,6 +41,7 @@ import factorial from "./factorial";
 import fileToBinaryString from "./fileToBinaryString";
 import { findRecursive, findAllRecursive } from "./findRecursive";
 import formatDuration from "./formatDuration";
+import formatNumber from "./formatNumber";
 import frequencies from "./frequencies";
 import fromTimestamp from "./fromTimestamp";
 import getCenterPointPos from "./getCenterPointPos";
@@ -65,6 +66,7 @@ import intersectionBy from "./intersectionBy";
 import iosInputScrollFix from "./iosInputScrollFix";
 import isBottomVisible from "./isBottomVisible";
 import isElBottomVisible from "./isElBottomVisible";
+import isCJKChar from "./isCJKChar";
 import isEmpty from "./isEmpty";
 import isEven from "./isEven";
 import isIdcard from "./isIdcard";
@@ -130,6 +132,7 @@ import orderBy from "./orderBy";
 import sum from "./sum";
 import sumPower from "./sumPower";
 import throttle from "./throttle";
+import timeStringToSeconds from "./timeStringToSeconds";
 import timeTaken from "./timeTaken";
 import toFixed0 from "./toFixed0";
 import toFixed1 from "./toFixed1";
@@ -292,6 +295,9 @@ const kyoka = {
   partialRight,
   intersectionBy,
   sortBy,
+  formatNumber,
+  timeStringToSeconds,
+  isCJKChar,
 };
 
 export default kyoka;
